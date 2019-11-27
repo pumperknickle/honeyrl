@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HoneyAgent Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/HoneyAgent" class="dashAnchor"></a>
+    <a title="HoneyAgent Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">HoneyRL Docs</a> (89% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">HoneyRL Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        HoneyAgent Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Mapping.html">Mapping</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7HoneyRL6ActionP">Action</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Agent.html">Agent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Policy.html">Policy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/QPolicy.html">QPolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SARSAAgent.html">SARSAAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7HoneyRL5StateP">State</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/HoneyAgent.html">HoneyAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HoneyPolicy.html">HoneyPolicy</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>HoneyAgent</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">HoneyAgent</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>An agent that can be used for honeypots. It learns episodes or requests and responses, and learns how to respond based on SARSA learning and maximimizing interaction with the attacker.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7HoneyRL5AgentP6reward2s12s2Sf10PolicyType_05StateH0QZ_AItF"></a>
+                    <a name="//apple_ref/swift/Method/reward(s1:s2:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL5AgentP6reward2s12s2Sf10PolicyType_05StateH0QZ_AItF">reward(s1:s2:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reward</span><span class="p">(</span><span class="nv">s1</span><span class="p">:</span> <span class="kt">StateType</span><span class="p">,</span> <span class="nv">s2</span><span class="p">:</span> <span class="kt">StateType</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">RewardType</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7HoneyRL5AgentP10PolicyTypeQa"></a>
+                    <a name="//apple_ref/swift/Alias/PolicyType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL5AgentP10PolicyTypeQa">PolicyType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">PolicyType</span> <span class="o">=</span> <span class="kt"><a href="../Structs/HoneyPolicy.html">HoneyPolicy</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-11-27)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

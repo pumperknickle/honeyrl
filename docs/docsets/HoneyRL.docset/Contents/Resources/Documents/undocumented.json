@@ -1,0 +1,201 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyAgent.swift",
+      "line": 5,
+      "symbol": "HoneyAgent",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyAgent.swift",
+      "line": 7,
+      "symbol": "HoneyAgent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyAgent.swift",
+      "line": 12,
+      "symbol": "HoneyAgent.PolicyType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 6,
+      "symbol": "HoneyPolicy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 9,
+      "symbol": "HoneyPolicy.init(qValues:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 14,
+      "symbol": "HoneyPolicy",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 15,
+      "symbol": "HoneyPolicy.StateType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 16,
+      "symbol": "HoneyPolicy.ActionType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 19,
+      "symbol": "HoneyPolicy",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 20,
+      "symbol": "HoneyPolicy.qValues",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Action.swift",
+      "line": 5,
+      "symbol": "Action",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Agent.swift",
+      "line": 4,
+      "symbol": "Agent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Agent.swift",
+      "line": 6,
+      "symbol": "Agent.PolicyType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Agent.swift",
+      "line": 8,
+      "symbol": "Agent.RewardType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Agent.swift",
+      "line": 10,
+      "symbol": "Agent.ActionType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Agent.swift",
+      "line": 12,
+      "symbol": "Agent.StateType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Agent.swift",
+      "line": 14,
+      "symbol": "Agent.StateActionPair",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Agent.swift",
+      "line": 16,
+      "symbol": "Agent.Episode",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Policy.swift",
+      "line": 5,
+      "symbol": "Policy",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Policy.swift",
+      "line": 7,
+      "symbol": "Policy.StateType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/Policy.swift",
+      "line": 9,
+      "symbol": "Policy.ActionType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/QPolicy.swift",
+      "line": 5,
+      "symbol": "QPolicy",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/QPolicy.swift",
+      "line": 7,
+      "symbol": "QPolicy.qValues",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/QPolicy.swift",
+      "line": 31,
+      "symbol": "QPolicy",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/QPolicy.swift",
+      "line": 71,
+      "symbol": "Mapping.transformToProbabilities()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/SARSAAgent.swift",
+      "line": 5,
+      "symbol": "SARSAAgent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/SARSAAgent.swift",
+      "line": 7,
+      "symbol": "SARSAAgent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/State.swift",
+      "line": 5,
+      "symbol": "State",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jbao/HoneyRL"
+}

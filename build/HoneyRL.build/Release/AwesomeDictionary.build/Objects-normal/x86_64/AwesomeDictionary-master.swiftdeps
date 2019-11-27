@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "adbf9a1f02dedd4dd2921d17a73514a8"
+build_time: [1574874802, 577667000]
+inputs:
+  "/Users/jbao/HoneyRL/.build/checkouts/AwesomeDictionary/Sources/AwesomeDictionary/AwesomeDictionary.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/AwesomeDictionary/Sources/AwesomeDictionary/Implementations/Mapping.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/AwesomeDictionary/Sources/AwesomeDictionary/Implementations/TrieNode.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/AwesomeDictionary/Sources/AwesomeDictionary/Protocols/Map.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/AwesomeDictionary/Sources/AwesomeDictionary/Protocols/Node.swift": [9223372036, 854775807]

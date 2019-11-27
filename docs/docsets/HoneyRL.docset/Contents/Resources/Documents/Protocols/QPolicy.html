@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QPolicy Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/QPolicy" class="dashAnchor"></a>
+    <a title="QPolicy Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">HoneyRL Docs</a> (89% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">HoneyRL Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        QPolicy Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Mapping.html">Mapping</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7HoneyRL6ActionP">Action</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Agent.html">Agent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Policy.html">Policy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/QPolicy.html">QPolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SARSAAgent.html">SARSAAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7HoneyRL5StateP">State</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/HoneyAgent.html">HoneyAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HoneyPolicy.html">HoneyPolicy</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>QPolicy</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">QPolicy</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/Policy.html">Policy</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>A policy that determined by Q values - which intend to measure the quality of any given state in respect to the reward received</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7HoneyRL7QPolicyP7qValuesXevp"></a>
+                    <a name="//apple_ref/swift/Property/qValues" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL7QPolicyP7qValuesXevp">qValues</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">qValues</span><span class="p">:</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt">StateType</span><span class="p">,</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt">ActionType</span><span class="p">,</span> <span class="kt">Float</span><span class="o">&gt;&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7HoneyRL7QPolicyPyxXe_tcxmcAaBRzlufc"></a>
+                    <a name="//apple_ref/swift/Method/init(qValues:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL7QPolicyPyxXe_tcxmcAaBRzlufc">init(qValues:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a new q policy with provided q-values</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">qValues</span><span class="p">:</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt">StateType</span><span class="p">,</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt">ActionType</span><span class="p">,</span> <span class="kt">Float</span><span class="o">&gt;&gt;</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>qValues</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Q values to define the policy</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A policy based on Q values that chooses an action for a given state</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7HoneyRL7QPolicyP8changing5state6action2tox9StateTypeQz_06ActionI0QzSftF"></a>
+                    <a name="//apple_ref/swift/Method/changing(state:action:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL7QPolicyP8changing5state6action2tox9StateTypeQz_06ActionI0QzSftF">changing(state:action:to:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a new Q policy with provided Q-values</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">changing</span><span class="p">(</span><span class="nv">state</span><span class="p">:</span> <span class="kt">StateType</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">ActionType</span><span class="p">,</span> <span class="n">to</span> <span class="nv">scalar</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A new policy with the modified Q value</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7HoneyRL6PolicyP6choose3for10ActionTypeQzSg05StateG0Qz_tF"></a>
+                    <a name="//apple_ref/swift/Method/choose(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL6PolicyP6choose3for10ActionTypeQzSg05StateG0Qz_tF">choose(for:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">choose</span><span class="p">(</span><span class="k">for</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">StateType</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ActionType</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-11-27)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

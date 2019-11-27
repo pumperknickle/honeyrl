@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "67876fe7613e78945300a04cd184068f"
+build_time: [1574874794, 721101000]
+inputs:
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Bedrock.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/ArrayExtensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/BoolExtensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/DataExtensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/DictionaryExtensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/FixedWidthInteger.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/SequenceExtensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/StringExtensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/UInt128Extensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/UInt256Extensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Extensions/UInt8Extensions.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Implementations/UInt128.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Implementations/UInt256.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Protocols/BinaryEncodable.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Protocols/DataEncodable.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Protocols/Fixed.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Protocols/Randomizable.swift": [9223372036, 854775807]
+  "/Users/jbao/HoneyRL/.build/checkouts/Bedrock/Sources/Bedrock/Protocols/Stringable.swift": [9223372036, 854775807]

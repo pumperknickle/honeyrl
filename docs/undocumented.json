@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 9,
+      "symbol": "HoneyPolicy.init(qValues:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
+      "line": 20,
+      "symbol": "HoneyPolicy.qValues",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/QPolicy.swift",
+      "line": 7,
+      "symbol": "QPolicy.qValues",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/QPolicy.swift",
+      "line": 71,
+      "symbol": "Mapping.transformToProbabilities()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jbao/HoneyRL"
+}
