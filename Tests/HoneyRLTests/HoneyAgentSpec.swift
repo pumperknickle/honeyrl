@@ -39,7 +39,7 @@ final class HoneyAgentSpec: QuickSpec {
             
             let allValidRequestResponsePairs = validResponsesToRequests.elements()
             
-            let fakeEpisodes = (0...1000).map { _ in
+            let fakeEpisodes = (0...10000).map { _ in
                 return (0..<Int.random(in: 1..<20)).map { _ in
                     return [allValidRequestResponsePairs.randomElement()!,
                         allValidRequestResponsePairs.randomElement()!

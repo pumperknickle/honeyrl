@@ -17,13 +17,13 @@ public protocol QPolicy: Policy {
     
     /**
     Initializes a new Q policy with provided Q-values
+     
+    - parameters:
+        - state: The state to change the Q values for
+        - action: The action to change the Q value for
+        - to: The q value that will be set
 
-    - Parameters:
-     - state: The state to change the Q values for
-     - action: The action to change the Q value for
-     - to: The q value that will be set
-
-    - Returns: A new policy with the modified Q value
+    - returns: A new policy with the modified Q value
     */
     func changing(state: StateType, action: ActionType, to scalar: Float) -> Self
 }

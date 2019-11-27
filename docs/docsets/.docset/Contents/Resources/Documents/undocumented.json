@@ -23,7 +23,7 @@
     },
     {
       "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/QPolicy.swift",
-      "line": 72,
+      "line": 71,
       "symbol": "Mapping.transformToProbabilities()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

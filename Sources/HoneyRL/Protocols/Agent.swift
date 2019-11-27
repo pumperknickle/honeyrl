@@ -18,11 +18,11 @@ public protocol Agent: Codable {
     /**
     Gets the reward for transitioning between two given states
 
-    - Parameters:
-     - s1: the previous state
-     - s2: the next state
+    - parameters:
+        - s1: the previous state
+        - s2: the next state
 
-    - Returns: The reward for transitioning between s1 and s2
+    - returns: The reward for transitioning between s1 and s2
     */
     func reward(s1: StateType, s2: StateType) -> RewardType
     
