@@ -69,6 +69,10 @@ extension QPolicy {
 }
 
 public extension Mapping where Value == Float {
+    /**
+    Transforms a vector of scalar values into a vector of probabilities (which should total 1)
+    - returns: Mapping of key to probabilities
+    */
     func transformToProbabilities() -> Mapping<Key, Value> {
         let scalarValues = elements()
         let totalValue = scalarValues.map { $0.1 }.reduce(0, +)

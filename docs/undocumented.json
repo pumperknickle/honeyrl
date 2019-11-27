@@ -20,13 +20,6 @@
       "symbol": "QPolicy.qValues",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/QPolicy.swift",
-      "line": 72,
-      "symbol": "Mapping.transformToProbabilities()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
     }
   ],
   "source_directory": "/Users/jbao/HoneyRL"
