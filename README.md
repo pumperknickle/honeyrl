@@ -15,7 +15,7 @@ let policy = HoneyAgent().learn(episodes: episodes)
 ## Installation
 ### Swift Package Manager
 
-Add honeyrl to Package.swift and the appropriate targets
+Add honeyrl to the dependencies and the appropriate targets in Package.swift
 ```swift
 .package(url: "https://github.com/pumperknickle/honeyrl.git", from: "1.0.0")
 ```
