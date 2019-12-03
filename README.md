@@ -17,7 +17,5 @@ let policy = HoneyAgent().learn(episodes: episodes)
 
 Add honeyrl to Package.swift and the appropriate targets
 ```swift
-dependencies: [
 .package(url: "https://github.com/pumperknickle/honeyrl.git", from: "1.0.0")
-]
 ```
