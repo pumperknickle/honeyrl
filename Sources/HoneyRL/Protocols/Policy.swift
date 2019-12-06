@@ -1,7 +1,7 @@
 import Foundation
 import AwesomeDictionary
 
-/// A policy chooses actions for given states
+/// A policy maps a state to an action.
 public protocol Policy: Codable {
     /// The state type of the policy
     associatedtype StateType: State

@@ -6,7 +6,7 @@ import Bedrock
 public struct HoneyPolicy: Codable {
     private let rawQValues: Mapping<StateType, Mapping<ActionType, Float>>!
     
-    public init(qValues: Mapping<StateType, Mapping<ActionType, Float>>) {
+    public init(qValues: Mapping<StateType, Mapping<ActionType, Float>> = Mapping<StateType, Mapping<ActionType, Float>>()) {
         rawQValues = qValues
     }
 }
@@ -17,9 +17,7 @@ extension HoneyPolicy: Policy {
 }
 
 extension HoneyPolicy: QPolicy {
-    public var qValues: Mapping<String, Mapping<String, Float>> {
-        return rawQValues
-    }
+    public var qValues: Mapping<String, Mapping<String, Float>> { return rawQValues }
 }
 
 extension String: State { }

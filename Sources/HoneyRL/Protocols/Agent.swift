@@ -15,6 +15,9 @@ public protocol Agent: Codable {
     /// An array of state action pairs
     typealias Episode = [StateActionPair]
     
+    /// The agent's learned policy
+    var policy: PolicyType! { get }
+    
     /**
     Gets the reward for transitioning between two given states
 
@@ -27,11 +30,29 @@ public protocol Agent: Codable {
     func reward(s1: StateType, s2: StateType) -> RewardType
     
     /**
-    Learns a policy given episodes
+    Learns given episodes
 
     - Parameter episodes: Training dataset of episodes
 
-    - Returns: A learned policy
+    - Returns: Agent after learning episodes
     */
-    func learn(episodes: [Episode]) -> PolicyType
+    func learn(episodes: [Episode]) -> Self
+    
+    /**
+    Updates the agent's learned policy
+
+    - Parameter policy: Policy to update agent
+
+    - Returns: Agent with newly updated policy
+    */
+    func update(policy: PolicyType) -> Self
+    
+    /**
+    Transitions the agent with visiting a state
+
+    - Parameter state: State to visit
+
+    - Returns: Agent after visiting state
+    */
+    func visit(state: StateType) -> Self
 }
