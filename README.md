@@ -12,6 +12,12 @@ In honeypot terms, an adverseries request can be considered a state, and the hon
 let policy = HoneyAgent().learn(episodes: episodes)
 ```
 
+HoneyRL can also be configured to maximize information capture from attackers.
+
+```swift
+let policy = HoneyCaptureAgent().learn(episodes: episodes)
+```
+
 ## Installation
 ### Swift Package Manager
 
