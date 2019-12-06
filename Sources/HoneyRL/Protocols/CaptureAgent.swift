@@ -1,6 +1,7 @@
 import Foundation
 import AwesomeDictionary
 
+/// An agent that can be used for honeypots. It learns episodes or requests and responses, and learns how to respond based on SARSA learning and maximimizing information capture from the attackers. It essentially rewards transitioning into an unvisited state much more than transitioning into a visited state.
 public protocol CaptureAgent: Agent {
     /// States that have been visited
     var visited: Set<StateType> { get }
@@ -14,6 +15,13 @@ public extension CaptureAgent {
         return RewardType(0.01)
     }
     
+    /**
+    Visits state
+
+    - Parameter state: State to visit
+
+    - Returns: Agent after visiting state.
+    */
     func visit(state: StateType) -> Self {
         return add(state: state)
     }

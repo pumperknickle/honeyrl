@@ -1,6 +1,7 @@
 import Foundation
 import AwesomeDictionary
 
+/// An agent that can be used for honeypots. It learns episodes or requests and responses, and learns how to respond based on SARSA learning. It focuses on maximizing information capture then maximizing interaction.
 public struct HoneyCaptureAgent: Codable {
     private let rawPolicy: PolicyType!
     private let rawVisited: Set<StateType>!

@@ -1,6 +1,27 @@
 {
   "warnings": [
     {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyAgent.swift",
+      "line": 8,
+      "symbol": "HoneyAgent.init(policy:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyCaptureAgent.swift",
+      "line": 9,
+      "symbol": "HoneyCaptureAgent.init(policy:visited:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyCaptureAgent.swift",
+      "line": 29,
+      "symbol": "HoneyCaptureAgent.add(state:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Implementations/HoneyPolicy.swift",
       "line": 9,
       "symbol": "HoneyPolicy.init(qValues:)",
@@ -12,6 +33,13 @@
       "line": 20,
       "symbol": "HoneyPolicy.qValues",
       "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jbao/HoneyRL/Sources/HoneyRL/Protocols/CaptureAgent.swift",
+      "line": 9,
+      "symbol": "CaptureAgent.add(state:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {

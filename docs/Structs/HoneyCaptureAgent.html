@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>HoneyPolicy Structure Reference</title>
+    <title>HoneyCaptureAgent Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Struct/HoneyPolicy" class="dashAnchor"></a>
-    <a title="HoneyPolicy Structure Reference"></a>
+    <a name="//apple_ref/swift/Struct/HoneyCaptureAgent" class="dashAnchor"></a>
+    <a title="HoneyCaptureAgent Structure Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">HoneyRL Docs</a> (88% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">HoneyRL Reference</a>
         <img id="carat" src="../img/carat.png" />
-        HoneyPolicy Structure Reference
+        HoneyCaptureAgent Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -80,14 +80,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>HoneyPolicy</h1>
+            <h1>HoneyCaptureAgent</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">HoneyPolicy</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">HoneyCaptureAgent</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
               </div>
-            <p>A policy that can be used for honeypots to respond to requests</p>
+            <p>An agent that can be used for honeypots. It learns episodes or requests and responses, and learns how to respond based on SARSA learning. It focuses on maximizing information capture then maximizing interaction.</p>
 
           </section>
           <section class="section task-group-section">
@@ -96,9 +96,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7HoneyRL0A6PolicyVyACXe_tcACmcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(qValues:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7HoneyRL0A6PolicyVyACXe_tcACmcfc">init(qValues:)</a>
+                    <a name="/s:7HoneyRL0A12CaptureAgentV6policy7visitedAcA0A6PolicyV_ShySSGtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(policy:visited:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL0A12CaptureAgentV6policy7visitedAcA0A6PolicyV_ShySSGtcfc">init(policy:visited:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -113,7 +113,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">qValues</span><span class="p">:</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/HoneyPolicy.html#/s:7HoneyRL6PolicyP9StateTypeQa">StateType</a></span><span class="p">,</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/HoneyPolicy.html#/s:7HoneyRL6PolicyP10ActionTypeQa">ActionType</a></span><span class="p">,</span> <span class="kt">Float</span><span class="o">&gt;&gt;</span> <span class="o">=</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/HoneyPolicy.html#/s:7HoneyRL6PolicyP9StateTypeQa">StateType</a></span><span class="p">,</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/HoneyPolicy.html#/s:7HoneyRL6PolicyP10ActionTypeQa">ActionType</a></span><span class="p">,</span> <span class="kt">Float</span><span class="o">&gt;&gt;</span><span class="p">())</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">policy</span><span class="p">:</span> <span class="kt"><a href="../Structs/HoneyCaptureAgent.html#/s:7HoneyRL5AgentP10PolicyTypeQa">PolicyType</a></span> <span class="o">=</span> <span class="o">&lt;&lt;</span><span class="n">empty</span><span class="o">&gt;&gt;</span><span class="p">,</span> <span class="nv">visited</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">StateType</span><span class="o">&gt;</span> <span class="o">=</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">StateType</span><span class="o">&gt;</span><span class="p">())</span></code></pre>
 
                         </div>
                       </div>
@@ -127,9 +127,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7HoneyRL6PolicyP9StateTypeQa"></a>
-                    <a name="//apple_ref/swift/Alias/StateType" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7HoneyRL6PolicyP9StateTypeQa">StateType</a>
+                    <a name="/s:7HoneyRL5AgentP10PolicyTypeQa"></a>
+                    <a name="//apple_ref/swift/Alias/PolicyType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL5AgentP10PolicyTypeQa">PolicyType</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -143,7 +143,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">StateType</span> <span class="o">=</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">PolicyType</span> <span class="o">=</span> <span class="kt"><a href="../Structs/HoneyPolicy.html">HoneyPolicy</a></span></code></pre>
 
                         </div>
                       </div>
@@ -153,9 +153,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7HoneyRL6PolicyP10ActionTypeQa"></a>
-                    <a name="//apple_ref/swift/Alias/ActionType" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7HoneyRL6PolicyP10ActionTypeQa">ActionType</a>
+                    <a name="/s:7HoneyRL5AgentP6policy10PolicyTypeQzSgvp"></a>
+                    <a name="//apple_ref/swift/Property/policy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL5AgentP6policy10PolicyTypeQzSgvp">policy</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -169,7 +169,33 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">ActionType</span> <span class="o">=</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">policy</span><span class="p">:</span> <span class="kt"><a href="../Structs/HoneyPolicy.html">HoneyPolicy</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7HoneyRL5AgentP6update6policyx10PolicyTypeQz_tF"></a>
+                    <a name="//apple_ref/swift/Method/update(policy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL5AgentP6update6policyx10PolicyTypeQz_tF">update(policy:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">policy</span><span class="p">:</span> <span class="kt"><a href="../Structs/HoneyPolicy.html">HoneyPolicy</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">HoneyCaptureAgent</span></code></pre>
 
                         </div>
                       </div>
@@ -183,9 +209,35 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7HoneyRL0A6PolicyV7qValuesXevp"></a>
-                    <a name="//apple_ref/swift/Property/qValues" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7HoneyRL0A6PolicyV7qValuesXevp">qValues</a>
+                    <a name="/s:7HoneyRL12CaptureAgentP7visitedShy10PolicyType_05StateG0QZGvp"></a>
+                    <a name="//apple_ref/swift/Property/visited" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL12CaptureAgentP7visitedShy10PolicyType_05StateG0QZGvp">visited</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">visited</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7HoneyRL0A12CaptureAgentV3add5stateACSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/add(state:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL0A12CaptureAgentV3add5stateACSS_tF">add(state:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -200,7 +252,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">qValues</span><span class="p">:</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Mapping</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Float</span><span class="o">&gt;&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">state</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">HoneyCaptureAgent</span></code></pre>
 
                         </div>
                       </div>

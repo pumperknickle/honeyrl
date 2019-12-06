@@ -14,7 +14,7 @@
     <a title="SARSAAgent Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">HoneyRL Docs</a> (92% documented)</p>
+        <p><a href="../index.html">HoneyRL Docs</a> (88% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -45,6 +45,9 @@
                 <a href="../Protocols/Agent.html">Agent</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/CaptureAgent.html">CaptureAgent</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/Policy.html">Policy</a>
               </li>
               <li class="nav-group-task">
@@ -63,6 +66,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Structs/HoneyAgent.html">HoneyAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HoneyCaptureAgent.html">HoneyCaptureAgent</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/HoneyPolicy.html">HoneyPolicy</a>
@@ -90,9 +96,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7HoneyRL10SARSAAgentPAAE5learn8episodes10PolicyTypeQzSaySayAF_05StateG0QZ_AF_06ActionG0QZtGG_tF"></a>
+                    <a name="/s:7HoneyRL10SARSAAgentPAAE5learn8episodesxSaySay10PolicyType_05StateG0QZ_AF_06ActionG0QZtGG_tF"></a>
                     <a name="//apple_ref/swift/Method/learn(episodes:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7HoneyRL10SARSAAgentPAAE5learn8episodes10PolicyTypeQzSaySayAF_05StateG0QZ_AF_06ActionG0QZtGG_tF">learn(episodes:)</a>
+                    <a class="token" href="#/s:7HoneyRL10SARSAAgentPAAE5learn8episodesxSaySay10PolicyType_05StateG0QZ_AF_06ActionG0QZtGG_tF">learn(episodes:)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -110,7 +116,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">learn</span><span class="p">(</span><span class="nv">episodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Episode</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">PolicyType</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">learn</span><span class="p">(</span><span class="nv">episodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Episode</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -143,9 +149,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7HoneyRL10SARSAAgentPAAE5learn13initialPolicy8episodes5alpha5gamma0F4TypeQzAJ_SaySayAI_05StateJ0QZ_AI_06ActionJ0QZtGGS2ftF"></a>
-                    <a name="//apple_ref/swift/Method/learn(initialPolicy:episodes:alpha:gamma:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7HoneyRL10SARSAAgentPAAE5learn13initialPolicy8episodes5alpha5gamma0F4TypeQzAJ_SaySayAI_05StateJ0QZ_AI_06ActionJ0QZtGGS2ftF">learn(initialPolicy:episodes:alpha:gamma:)</a>
+                    <a name="/s:7HoneyRL10SARSAAgentPAAE5learn8episodes5alpha5gammaxSaySay10PolicyType_05StateI0QZ_AH_06ActionI0QZtGG_S2ftF"></a>
+                    <a name="//apple_ref/swift/Method/learn(episodes:alpha:gamma:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7HoneyRL10SARSAAgentPAAE5learn8episodes5alpha5gammaxSaySay10PolicyType_05StateI0QZ_AH_06ActionI0QZtGG_S2ftF">learn(episodes:alpha:gamma:)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -163,7 +169,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">learn</span><span class="p">(</span><span class="nv">initialPolicy</span><span class="p">:</span> <span class="kt">PolicyType</span><span class="p">,</span> <span class="nv">episodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Episode</span><span class="p">],</span> <span class="nv">alpha</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">gamma</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PolicyType</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">learn</span><span class="p">(</span><span class="nv">episodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Episode</span><span class="p">],</span> <span class="nv">alpha</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">gamma</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -234,7 +240,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-11-27)</p>
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-12-06)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
