@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "AwesomeTrie",
+        "repositoryURL": "https://github.com/pumperknickle/AwesomeTrie.git",
+        "state": {
+          "branch": null,
+          "revision": "0e6a7c813a36793ac3503bec3a849fd427af0a16",
+          "version": "0.0.7"
+        }
+      },
+      {
         "package": "Bedrock",
         "repositoryURL": "https://github.com/pumperknickle/Bedrock.git",
         "state": {

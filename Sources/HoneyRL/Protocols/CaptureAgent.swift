@@ -10,8 +10,8 @@ public protocol CaptureAgent: Agent {
 
 public extension CaptureAgent {
     func reward(s1: StateType, s2: StateType) -> RewardType {
-        if visited.contains(s2) { return RewardType(1) }
-        return RewardType(0.1)
+        if !visited.contains(s2) { return RewardType(1) }
+        return RewardType(0.01)
     }
     
     func visit(state: StateType) -> Self {
